@@ -1,3 +1,4 @@
+// this is a simple code for practicing print and scan f functions
 #include <stdio.h>
 int main()
 {
