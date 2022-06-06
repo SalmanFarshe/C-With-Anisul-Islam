@@ -1,3 +1,4 @@
+// find the area of a triange
 #include<stdio.h>
 int main(){
     float base, height, area;
