@@ -1,0 +1,5 @@
+step-01: start
+step-01: get input
+step-01: Process ( sumation )
+step-01: print output
+step-01: end
