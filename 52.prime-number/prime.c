@@ -1,18 +1,17 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main(){
-    int x, result = 0;
-    printf("Enter a number = ");
-    scanf("%d", &x);
-    for (int i = 2; i < x; i++){
-        if (x % i == 0){
-            result++;
+    int num, i, prime = 0;
+    printf("Enter any number : ");
+    scanf("%d", &num);
+    for ( i = 2; i < num; i++){
+        if( num % i == 0){
+            printf("%d is not a prime number", num);
+            prime++;
             break;
         }
     }
-    if(result == 0){
-        printf("Its a prime number\n");
-    }else{
-        printf("Its not  a prime number\n");
+    if(prime != 1){
+        printf("%d is a prime number", num);
     }
+    return 0;
 }

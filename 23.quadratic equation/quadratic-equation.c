@@ -12,4 +12,4 @@ int main(){
     x1 = (-b + base) / (2 * a);
     x2 = (-b - base) / (2 * a);
     printf("x1 is = %.6f and x2 = %.6f", x1, x2);
-} 
+}
